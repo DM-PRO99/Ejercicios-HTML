@@ -30,4 +30,30 @@
   <!-- 3. Enlaces -->
   <h2>Enlaces</h2>
   <p><a href="https://www.google.com" target="_blank">Ir a Google</a></p>
-  <p><a href="conta
+  <p><a href="contacto.html">Ir a Contacto</a></p>
+  <p>
+    <a href="https://github.com" target="_blank">
+      <img src="Assets/github-icon.png" alt="GitHub" width="40">
+    </a>
+  </p>
+
+  <!-- 4. Imagen -->
+  <h2>Imagen desde Internet</h2>
+  <img src="https://placekitten.com/300/200" alt="Gatito lindo" width="300">
+
+  <!-- 5. Video -->
+  <h2>Video local</h2>
+  <video width="400" controls>
+    <source src="Assets/video.mp4" type="video/mp4">
+    Tu navegador no soporta el video.
+  </video>
+
+  <h2>Video de YouTube</h2>
+  <iframe width="400" height="225" 
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+          title="YouTube video" 
+          frameborder="0" allowfullscreen>
+  </iframe>
+
+</body>
+</html>
