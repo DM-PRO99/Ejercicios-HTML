@@ -11,11 +11,11 @@
   <p>Esta es mi primera página en HTML.</p>
 
   <!-- 2. Listas -->
-  <h2>Frutas Favoritas</h2>
+  <h2>Mis Frutas Favoritas</h2>
   <ul>
     <li>Manzana</li>
-    <li>Plátano</li>
-    <li>Fresa</li>
+    <li>Piña</li>
+    <li>Mango</li>
   </ul>
 
   <h2>Pasos para preparar una taza de café</h2>
@@ -24,36 +24,32 @@
     <li>Colocar café en la taza</li>
     <li>Agregar el agua caliente</li>
     <li>Revolver</li>
-    <li>Disfrutar</li>
+    <li>Agregar azucar al gusto</li>
+    <li>Disfrutar  la taz de café</li>
   </ol>
 
   <!-- 3. Enlaces -->
   <h2>Enlaces</h2>
   <p><a href="https://www.google.com" target="_blank">Ir a Google</a></p>
-  <p><a href="contacto.html">Ir a Contacto</a></p>
-  <p>
-    <a href="https://github.com" target="_blank">
-      <img src="Assets/github-icon.png" alt="GitHub" width="40">
-    </a>
-  </p>
+  <p><a href="https://www.nasa.gov/es/" target="_blank">Ir a Nasa</a></p>
 
-  <!-- 4. Imagen -->
-  <h2>Imagen desde Internet</h2>
-  <img src="https://placekitten.com/300/200" alt="Gatito lindo" width="300">
-
-  <!-- 5. Video -->
-  <h2>Video local</h2>
-  <video width="400" controls>
-    <source src="Assets/video.mp4" type="video/mp4">
-    Tu navegador no soporta el video.
-  </video>
-
-  <h2>Video de YouTube</h2>
-  <iframe width="400" height="225" 
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-          title="YouTube video" 
-          frameborder="0" allowfullscreen>
-  </iframe>
-
-</body>
-</html>
+   <!-- 4. Imagen -->
+   <h2>Imagen desde Internet</h2>
+   <img src="hacker-que-opera-ilustracion-icono-historieta-ordenador-portatil-concepto-icono-tecnologia-aislado-estilo-dibujos-animados-plana_138676-2387.avif" alt="programacion" width="300">
+ 
+   <!-- 5. Video -->
+   <h2>Video local</h2>
+   <video width="400" controls>
+     <source src="Assets/video.mp4" type="video/mp4">
+     Tu navegador no soporta el video.
+   </video>
+ 
+   <h2>Video de YouTube</h2>
+   <iframe width="400" height="225" 
+           src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+           title="YouTube video" 
+           frameborder="0" allowfullscreen>
+   </iframe>
+ 
+ </body>
+ </html>
