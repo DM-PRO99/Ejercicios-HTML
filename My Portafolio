@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <!--Le doy el estilo la letra y el color a la pagina web-->
+    <body>
+    <style>
+        body{
+            front-family: arial, sans-serif
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        header, section {
+            padding: 40px;
+        }
+        header  {
+            background: #333;
+            color: white;
+            text-align: center;
+        }
+        nav a {
+            color: beige;
+            margin: 0 15 px;
+            text-decoration: none;
+            font-weight:bold;
+        }
+        nav a:hover {
+            text-decoration:underline;
+        }
+        .proyecto {
+            background:white;
+            padding:20px;
+            margin:20px 0;
+            border-radius:10px;
+        }
+        footer {
+            background:#222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    
+    </style>
+    </head>
+    <header id="presentation">
+        <H1>Hola soy Diego Alejandro Mena</H1>
+        <p>EStudiante de desarollo web</p>
+    </header>
+<nav>
+    <a href="Contacto 3195336338"></a>
+</nav>
+    
+    <section id="proyectos">
+        <h2>Mis proyectos</h2>
+    <div class="skills">
+        <h2>My skills</h2>
+        <h3>Python</h3><br>
+        <h3>HTML</h3><br>
+    </div>   
+        
+    <div class="proyectos">
+        <h3>Proyecto 1:Página web Porfatolio Diego</h3>
+    </div>
+
+<section id="Contacto:3195336338">
+    <h2>Contacto</h2>
+    <form action="correo:diegomena903@gmail.com" method="post" enctype="text/plain">
+        <label for="Nombre">Nombre:</label> <br>
+        <input type="text" id="Nombre" name="Nombre" required><br><br>
+        <label for="correo">Correo:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+<!--Genero un botón para enviar la informacion-->
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+
+<!---Esta sección es para insertar y organizar la imagen animada acerca de mí--->
+<section class="hero" id="about me" >
+
+    <img 
+        src="Img/hacker-que-opera-ilustracion-icono-historieta-ordenador-portatil-concepto-icono-tecnologia-aislado-estilo-dibujos-animados-plana_138676-2387.avif"
+        alt="Diego Mena"
+        loading="relax"
+        class="hero-img"
+        style="align-content: center";>
+    <div class="bio animate__animated animate__shakeX">
+  <h2 class="bio-titulo">Sobre Mí</h2>
+  <p class="bio-texto">
+    Soy Diego ALejandro Mena Ciceri un joven que le gusta el mundo de la programacion <br>
+    tengo 23 años y vivo en Itagui-Antioquia.
+  </p>
+    </div>
+
+<!--Aqui alineamos la altura y el ancho de la imagen de la pagina--->
+    <style>
+    .hero {
+        display:flex;
+        align-items:flex-end;
+        justify-content: center;
+        gap: 2.5rem;
+        max-width: 68.75rem;
+        margin: auto;
+     }
+
+  .hero img {
+    height: 37.5rem;
+    width: 37.5rem;
+    }
+
+    .bio {
+        width: 25rem;
+        padding: 0.625rem;
+        border-radius: 6px;
+        box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    }
+
+    .bio h1 {  
+        margin-bottom: var(--bottom-margin);
+    }
+
+    .bio p {
+        line-height: var(--line-height);
+        padding: 0.3rem 0;
+    }
+    </style>
+
+
+</section>
+<!--Aqui finalizamos de organizar la imagen-->
+
+
+<!--Aqui coloco los derechos de autor-->
+<footer>
+    <p>2025 Diego Alejandro Mena Ciceri-Derechos de autor</p>
+</footer>
+    
+
+</body>
+</html>
