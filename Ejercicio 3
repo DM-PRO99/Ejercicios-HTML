@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicios Básicos de HTML</title>
+</head>
+<body>
+
+  <!-- 1. Mi primera página HTML -->
+  <h1>Hola Mundo</h1>
+  <p>Esta es mi primera página en HTML.</p>
+
+  <!-- 2. Listas -->
+  <h2>Frutas Favoritas</h2>
+  <ul>
+    <li>Manzana</li>
+    <li>Plátano</li>
+    <li>Fresa</li>
+  </ul>
+
+  <h2>Pasos para preparar una taza de café</h2>
+  <ol>
+    <li>Hervir agua</li>
+    <li>Colocar café en la taza</li>
+    <li>Agregar el agua caliente</li>
+    <li>Revolver</li>
+    <li>Disfrutar</li>
+  </ol>
+
+  <!-- 3. Enlaces -->
+  <h2>Enlaces</h2>
+  <p><a href="https://www.google.com" target="_blank">Ir a Google</a></p>
+  <p><a href="conta
