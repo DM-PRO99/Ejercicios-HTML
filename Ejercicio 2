@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio</title>
+  <style>
+    body {
+      background-color: #add8e6; /* azul claro */
+      color: #000000; /* texto oscuro */
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bienvenido a mi sitio web</h1>
+  <p>Este es mi sitio web personal. ¡Explora más sobre mí!</p>
+  <a href="about.html">Ir a Acerca de mí</a>
+
+</body>
+</html>
+
