@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <h1>PAGINA WEB</h1>
+    <section class="Tarjeta">
+        <h1>Nevera</h1>
+        <img src="img/FH.jpg" alt="imagen">
+        <p>Lo que tienes que saber de este producto <br>
+        Voltaje: 110V <br>
+        Freezer superior con control de temperatura. <br>
+        Con fábrica de hielo. <br>
+        Cuenta con porta huevos. <br>
+        Dimensiones: 55.5 cm de ancho, 1.635 m de alto y 63.7 cm de profundidad.
+        </p>
+
+        <input type="button" value="Comprar" class="boton">
+    </section>
+</body>
+</html>
+
+
+
+CSS
+body{
+    height: 100%;
+    width: 100%;
+    background-color:blanchedalmond
+}
+h1{
+    text-align: center;
+}
+.Tarjeta{
+    text-align: center;
+    display: block;
+    align-items: center;
+    height: 50vh;
+    width: 70vh;
+    background-color:gray;
+    color: white;
+    justify-content: center;
+    margin: 2rem auto 0 auto;
+    border-radius: 10px;
+}
+.Tarjeta:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+img{
+    height: 200px;
+    width: 400x;
+}
+.boton:hover{
+    background-color: red;
+}
