@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café de la Loma - Cafetería Artesanal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#location">Ubicación y Horarios</a></li>
+                <li><a href="#reservations">Reservas</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <h1>Café de la Loma</h1>
+            <p>Tu lugar favorito para disfrutar del mejor café artesanal.</p>
+            <img srcset="assets/hero-small.jpg 375w,
+                         assets/hero-medium.jpg 768w,
+                         assets/hero-large.jpg 1200w"
+                 src="assets/hero-large.jpg"
+                 alt="Café de la Loma - Imagen destacada">
+        </section>
+
+        <section id="menu" class="menu">
+            <h2>Nuestro Menú</h2>
+            <div class="category">
+                <h3>Cafés Especiales</h3>
+                </div>
+            <div class="category">
+                <h3>Repostería</h3>
+                </div>
+            <div class="category">
+                <h3>Bebidas Frías</h3>
+                </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una cafetería artesanal dedicada a ofrecerte una experiencia única con cada taza.</p>
+        </section>
+
+        <section id="location" class="location">
+            <h2>Ubicación y Horarios</h2>
+            <p>Dirección: [Dirección de la cafetería]</p>
+            <p>Horarios: [Horarios de atención]</p>
+            </section>
+
+        <section id="reservations" class="reservations">
+            <h2>Haz tu Reserva</h2>
+            <form id="reservation-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="date">Fecha:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Hora:</label>
+                <input type="time" id="time" name="time" required>
+
+                <button type="submit">Reservar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Café de la Loma. Todos los derechos reservados.</p>
+    </footer>
+
+    
+</body>
+</html>
