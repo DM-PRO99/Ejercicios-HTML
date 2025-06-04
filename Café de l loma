@@ -86,3 +86,168 @@
     
 </body>
 </html>
+
+css
+/* Variables CSS */
+:root {
+    --primary-color: #6F4E37; /* Marrón café */
+    --secondary-color: #D4B996; /* Crema */
+    --text-color: #333;
+    --font-family-heading: 'Georgia', serif;
+    --font-family-body: 'Arial', sans-serif;
+}
+
+body {
+    font-family: var(--font-family-body);
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.hero {
+    text-align: center;
+    padding: 4em 1em;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    margin-top: 2em;
+}
+
+/* Diseño Flexbox/Grid para menú y otras secciones */
+.menu, .about, .location, .reservations {
+    padding: 2em;
+    text-align: center;
+}
+
+.menu .category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+/* Formulario */
+#reservation-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2em;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+}
+
+/* Media Queries */
+/* Escritorio (1200px+) */
+@media (min-width: 1200px) {
+    nav ul {
+        justify-content: flex-end;
+        padding-right: 2em;
+    }
+    .menu .category {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+/* Tablet (768px) */
+@media (max-width: 1199px) and (min-width: 768px) {
+    nav ul {
+        justify-content: center;
+    }
+    .menu .category {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Móvil (375px) - Menú hamburguesa */
+@media (max-width: 767px) {
+    nav ul {
+        display: none; /* Ocultar menú normal en móvil */
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block; /* Mostrar icono de hamburguesa */
+        position: absolute;
+        right: 1em;
+        top: 1em;
+        cursor: pointer;
+    }
+
+    .menu-toggle span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px auto;
+    }
+
+    /* JavaScript para toggle la clase 'active' en nav ul */
+    nav ul.active {
+        display: flex;
+    }
+}
+
+/* Efectos hover/transiciones */
+button, input[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #8C6A4F; /* Un tono más oscuro */
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
