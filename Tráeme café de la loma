@@ -1,0 +1,29 @@
+# Café de la Loma - Sitio Web Artesanal
+
+Este es el sitio web oficial de "Café de la Loma", una cafetería artesanal, desarrollado como parte de un ejercicio de entrenamiento de desarrollo web avanzado.
+
+## Descripción del Proyecto
+
+El objetivo de este proyecto es crear un sitio web atractivo y funcional para una cafetería, mostrando sus productos, ubicación, horarios y permitiendo a los clientes realizar reservas. El sitio está diseñado para ser completamente responsivo, adaptándose a diferentes tamaños de pantalla (escritorio, tablet, móvil).
+
+## Requisitos Cumplidos
+
+* **Estructura HTML Semántica:** Uso de `header`, `nav`, `main`, `section`, `footer` y `DOCTYPE`.
+* **Secciones Obligatorias:** Hero con imagen destacada, Menú de productos (3 categorías), Sobre nosotros, Ubicación y horarios, Formulario de reservas.
+* **Estilos CSS:**
+    * Archivo externo `styles.css`.
+    * Uso de variables CSS para colores y fuentes.
+    * Flexbox/Grid para el diseño de la página.
+    * Media Queries para diseño responsivo (3 breakpoints: escritorio, tablet, móvil).
+    * Efectos `hover` y transiciones en elementos interactivos.
+* **Diseño Responsivo:**
+    * Adaptación a Escritorio (1200px+), Tablet (768px) y Móvil (375px).
+    * Menú adaptativo (menú hamburguesa en móvil).
+    * Imágenes responsive usando `srcset` en la sección Hero.
+* **Interactividad:**
+    * Formulario de reserva funcional con validación básica.
+    * Efectos `hover` en productos (ejemplo conceptual).
+    * Smooth scrolling (opcional, implementado).
+
+## Estructura del Repositorio
+
